@@ -1,128 +1,120 @@
-🌍 Wanderlust – Travel Listing Platform
 
-Wanderlust is a full-stack travel listing web application inspired by Airbnb, built using the MVC (Model–View–Controller) architecture. The project focuses on clean code organization, scalability, and secure user interactions, while implementing core travel-platform features end to end.
 
-📌 Project Overview
+---
 
-Wanderlust allows users to browse travel properties, view detailed listings, leave reviews and ratings, and manage their own property listings. The application is designed with a strong emphasis on separation of concerns through MVC architecture, making the codebase clean, maintainable, and scalable.
+# 🌍 Wanderlust – Travel Listing Platform
 
-🚀 Key Features
+Wanderlust is a **full-stack travel listing web application** inspired by Airbnb, built using the **MVC (Model–View–Controller) architecture**. The project focuses on **clean code organization, scalability, and secure user interactions**, while implementing core travel-platform features end to end.
 
-User Authentication & Authorization
+---
 
-Secure login and registration using Passport.js
+## 📌 Project Overview
 
-Session-based authentication and protected routes
+Wanderlust allows users to **browse travel properties**, view detailed listings, leave **reviews and ratings**, and **manage their own property listings**. The application is designed with a strong emphasis on **separation of concerns** through MVC architecture, making the codebase clean, maintainable, and scalable.
 
-Property Listings
+---
 
-Create, read, update, and delete property listings
+## 🚀 Key Features
 
-Image uploads handled via Cloudinary
+* **User Authentication & Authorization**
 
-Review & Rating System
+  * Secure login and registration using **Passport.js**
+  * Session-based authentication and protected routes
 
-Users can leave reviews and ratings for properties
+* **Property Listings**
 
-Ratings displayed on listing pages
+  * Create, read, update, and delete property listings
+  * Image uploads handled via **Cloudinary**
 
-Search & Filtering
+* **Review & Rating System**
 
-Browse and filter listings based on user preferences
+  * Users can leave reviews and ratings for properties
+  * Ratings displayed on listing pages
 
-Interactive Maps
+* **Search & Filtering**
 
-Location visualization using map integration
+  * Browse and filter listings based on user preferences
 
-Responsive UI
+* **Interactive Maps**
 
-Server-side rendered views using EJS templates
+  * Location visualization using map integration
 
-Optimized for desktop and mobile devices
+* **Responsive UI**
 
-🏗️ Architecture
+  * Server-side rendered views using **EJS templates**
+  * Optimized for desktop and mobile devices
 
-The project follows the MVC (Model–View–Controller) architecture:
+---
 
-Models: MongoDB schemas using Mongoose
+## 🏗️ Architecture
 
-Views: EJS templates for dynamic UI rendering
+The project follows the **MVC (Model–View–Controller) architecture**:
 
-Controllers: Business logic and request handling
+* **Models:** MongoDB schemas using Mongoose
+* **Views:** EJS templates for dynamic UI rendering
+* **Controllers:** Business logic and request handling
+* **Routes:** RESTful API endpoints
 
-Routes: RESTful API endpoints
+This structure ensures **clear separation of concerns** and easier scalability.
 
-This structure ensures clear separation of concerns and easier scalability.
+---
 
-🛠️ Tech Stack
+## 🛠️ Tech Stack
 
-Backend
+**Backend**
 
-Node.js
+* Node.js
+* Express.js
+* MongoDB
+* Mongoose
+* REST APIs
 
-Express.js
+**Frontend (Views)**
 
-MongoDB
+* EJS
+* HTML5
+* CSS3
 
-Mongoose
+**Authentication & Security**
 
-REST APIs
+* Passport.js
+* Session management
 
-Frontend (Views)
+**Media & Storage**
 
-EJS
+* Cloudinary (image uploads)
 
-HTML5
+**Architecture**
 
-CSS3
+* MVC (Model–View–Controller)
 
-Authentication & Security
+---
 
-Passport.js
+## ⚙️ Core Functionalities
 
-Session management
+* Full **CRUD operations** for property listings
+* Secure **session handling**
+* Image upload and storage in the cloud
+* Clean and modular routing structure
+* Optimized database queries for performance
 
-Media & Storage
+---
 
-Cloudinary (image uploads)
+## 🧠 Challenges Faced
 
-Architecture
+* Designing a **scalable MVC architecture**
+* Implementing **secure authentication flows**
+* Managing **file uploads with cloud storage**
+* Optimizing MongoDB queries for performance
 
-MVC (Model–View–Controller)
+---
 
-⚙️ Core Functionalities
+## ✅ Outcomes
 
-Full CRUD operations for property listings
+* Successfully replicated **core Airbnb-like functionality**
+* Built a **clean, maintainable MVC-based codebase**
+* Implemented all major **CRUD features**
+* Deployed and accessible online
 
-Secure session handling
+---
 
-Image upload and storage in the cloud
-
-Clean and modular routing structure
-
-Optimized database queries for performance
-
-🧠 Challenges Faced
-
-Designing a scalable MVC architecture
-
-Implementing secure authentication flows
-
-Managing file uploads with cloud storage
-
-Optimizing MongoDB queries for performance
-
-✅ Outcomes
-
-Successfully replicated core Airbnb-like functionality
-
-Built a clean, maintainable MVC-based codebase
-
-Implemented all major CRUD features
-
-Deployed and accessible online
-
-
-📄 Note
-
-Wanderlust is a learning-focused project developed to demonstrate full-stack development, MVC architecture, authentication, and cloud integration using industry-standard tools.
